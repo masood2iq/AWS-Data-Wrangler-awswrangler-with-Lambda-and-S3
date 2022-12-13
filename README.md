@@ -143,7 +143,7 @@ def lambda_handler(event, context):
 ![](./images/image3.png)
 
   
-Click on the `Deploy' button, the function code is updated. In the code above, we first import `awswrangler` library from the Layer. We then use `wrangler api` to read data from the `S3 bucket` and populate to a pandas dataframe. We then apply a small transformation to select only two columns out of the dataframe. Finally, we use `wrangler api` to write the transformed `dataframe` to the `S3 bucket` in the `CSV` format.
+Click on the `Deploy` button, the function code is updated. In the code above, we first import `awswrangler` library from the Layer. We then use `wrangler api` to read data from the `S3 bucket` and populate to a pandas dataframe. We then apply a small transformation to select only two columns out of the dataframe. Finally, we use `wrangler api` to write the transformed `dataframe` to the `S3 bucket` in the `CSV` format.
 
 The lambda function code and configuration is ready and good to run. Click on the `Test` button a pop-up window will open. On the next screen, type in the `Event name`. Leave the input to the default as you are not using input anyway. Finally, click on the `Save` button.
 
